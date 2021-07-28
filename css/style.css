@@ -278,8 +278,18 @@ img {
     font-size: 1rem;
   }
 }
-
+@media (max-height: 700px) {
+  .higth {
+    margin-top: 7rem;
+  }
+}
 @media (max-width: 700px) {
+  /* .container {
+    margin-top: 7rem;
+  } */
+  .showcase-top h1 {
+    width: 30%;
+  }
   #tab-1-content .tab-1-content-inner {
     display: block;
     text-align: center;

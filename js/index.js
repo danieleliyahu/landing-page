@@ -8,7 +8,8 @@ const button = document.getElementById("button");
 
 function selectItem(e) {
   removeBorder();
-  if (this.innerText === "chose your path") {
+  console.log(this.id);
+  if (this.id === "tab-2") {
     tab.classList.remove("hiden");
     tab2.classList.add("hiden");
   } else {
