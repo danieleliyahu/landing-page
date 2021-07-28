@@ -4,7 +4,158 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+      data-auto-replace-svg="nest"
+    ></script>
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    /> -->
     <title>Ninga Negev</title>
   </head>
-  <body></body>
+  <body>
+    <header class="showcase">
+      <div class="showcase-top">
+        <!-- <img src="img/logo.jpeg" alt="Ninga Negev" /> -->
+        <h1>Ninga Negev</h1>
+        <a href="#" class="btn btn-rounded">Contact Us</a>
+      </div>
+      <div class="showcase-content">
+        <h1>See what's next</h1>
+        <p>Watch anywhere. cancel anytime</p>
+        <a href="#" class="btn btn-xl"> Come for a free trial lesson </a>
+      </div>
+    </header>
+    <section class="tabs">
+      <div class="container">
+        <div id="tab-1" class="tab-item tab-border">
+          <i class="fas fa-door-open fa-3x"></i>
+          <p class="hide-sm">Cancel at any time</p>
+        </div>
+        <div id="tab-2" class="tab-item">
+          <i class="fas fa-tablet-alt fa-3x"></i>
+          <p class="hide-sm">chose your path</p>
+        </div>
+
+      </div>
+    </section>
+    <section class="tab-content">
+      <div class="container">
+        <div id="tab-1-content" class="tab-content-item show">
+          <div class="tab-1-content-inner ">
+            <div>
+              <p class="text-lg">
+                Come for a free trial lesson without obligation
+              </p>
+              <a href="#" class="btn btn-lg">free trial lesson</a>
+            </div>
+            <img src="img/photo3.jpg" alt="" />
+          </div>
+        </div>
+
+        <div id="tab-2-content" class="tab-content-item hiden">
+            <div class="tab-2-content-top ">
+                <p class="text-lg">
+                    ready to start your jorny to beacome a professional ninja ? great you are at the rigth place.
+                </p>
+                <a href="#" class="btn btn-lg">Come for a free trial lesson</a>
+            </div>
+            <div class="tab-2-content-bottom">
+                <div class="pricediv">
+                    <img src="./img/six.png"  alt="" />
+                    <p class="text-md">
+                        beginner
+                    </p>
+                    <p class="text-dark">
+                        learn the basics
+                    </p>
+                </div>
+                <div class="pricediv">
+                    <img src="./img/three.png"  alt="" />
+                    <p class="text-md">
+                        advanced 
+                    </p>
+                    <p class="text-dark">
+                        advanced ninja
+                    </p>
+                </div>
+                <div class="pricediv">
+                    <img src="./img/year.png" alt="" />
+                    <p class="text-md">
+                        professional
+                    </p>
+                    <p class="text-dark">
+                        become a professional ninja
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+        <p>Questions? Call 1-866-579-7172</p>
+        <div class="footer-cols">
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Ways To Watch</a></li>
+                <li><a href="#">Corporate Information</a></li>
+                <li><a href="#">Netflix Originals</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Terms Of Use</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Redeem Gift Cards</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Speed Test</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Media Center</a></li>
+                <li><a href="#">Buy Gift Cards</a></li>
+                <li><a href="#">Cookie Preferences</a></li>
+                <li><a href="#">Legal Notices</a></li>
+            </ul>
+        </div>
+
+    </footer>
+    <div class="modal-container"
+    id="modal_container">
+ 
+        <div class="modal">
+            <div id="closepopup">
+                <i class="far fa-times-circle"></i>
+        
+            </div>
+            <h1>We will get back to you</h1>
+                <form action="">
+                    <div class="popupdiv">
+                        <span>
+                        <label for="phone"><b>Phone number</b></label>
+                        <br/>
+                        <input type="phone" placeholder="Enter phone number" name="phone" id="phone" required>
+                    </span>
+                    <span>
+                        <label for="email"><b>Email</b></label><br/>
+                        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+                    </span>
+                        <button id="button" type="button" class="submit"></button>
+                    </div>
+
+                </form>
+   
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
 </html>
